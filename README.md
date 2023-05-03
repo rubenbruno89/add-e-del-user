@@ -4,13 +4,21 @@
 Este é um script em lote que permite realizar algumas ações relacionadas à gerência de contas de usuário em um sistema operacional Windows. O menu apresentado ao usuário contém as seguintes opções:
 
 Excluir contas
+
 Apagar a pasta da conta
+
 Adicionar uma conta
+
 Adicionar uma conta administrador
+
 Login automático no Windows
+
 Gerenciador do Computador
+
 Reiniciar o Computador
+
 S. SAIR
+
 Ao escolher uma das opções, o script redireciona para uma função correspondente. Por exemplo, a opção 1, "Excluir contas", direciona para a função "DEL", que solicita ao usuário o nome da conta a ser excluída e a remove usando o comando "net user".
 
 O script utiliza vários comandos do sistema operacional Windows, como "net user" para gerenciar as contas de usuário, "rd" para remover pastas e "shutdown" para reiniciar o computador.
