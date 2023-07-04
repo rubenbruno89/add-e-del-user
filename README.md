@@ -1,26 +1,23 @@
-# add-e-del-user
+# Script de Administração de Contas de Usuário
 
+Este script em lote oferece um menu de opções para administrar contas de usuário no sistema Windows. Ele permite executar ações como excluir contas, apagar pastas de contas, adicionar contas, adicionar contas de administrador, configurar login automático no Windows, acessar o Gerenciador do Computador e reiniciar o computador.
 
-Este é um script em lote que permite realizar algumas ações relacionadas à gerência de contas de usuário em um sistema operacional Windows. O menu apresentado ao usuário contém as seguintes opções:
+## Como utilizar
 
-Excluir contas
+1. Abra o arquivo de script (.bat) em um editor de texto.
+2. No menu de opções, você pode personalizar as opções existentes ou adicionar novas opções, se necessário. Certifique-se de fornecer instruções claras para cada opção.
+3. Execute o script.
+4. O script exibirá a hora atual e a data utilizando os comandos `time /t` e `date /t`.
+5. O menu de opções será exibido, permitindo que o usuário selecione uma opção digitando o número correspondente.
+6. Dependendo da opção selecionada, o script executará os comandos apropriados para realizar a ação desejada.
+7. Após a conclusão da ação, o script retornará ao menu de opções.
+8. O usuário pode selecionar a opção "S" para sair do script.
 
-Apagar a pasta da conta
+## Observações
 
-Adicionar uma conta
+- O script deve ser executado como administrador para obter permissões necessárias para realizar as ações de administração de contas.
+- Certifique-se de que as instruções fornecidas sejam claras e precisas para evitar erros ou ações indesejadas.
+- É importante ter cuidado ao usar opções que envolvam exclusão de contas ou pastas, pois essas ações são irreversíveis.
+- O script pode ser personalizado e adaptado de acordo com as necessidades do usuário.
 
-Adicionar uma conta administrador
-
-Login automático no Windows
-
-Gerenciador do Computador
-
-Reiniciar o Computador
-
-S. SAIR
-
-Ao escolher uma das opções, o script redireciona para uma função correspondente. Por exemplo, a opção 1, "Excluir contas", direciona para a função "DEL", que solicita ao usuário o nome da conta a ser excluída e a remove usando o comando "net user".
-
-O script utiliza vários comandos do sistema operacional Windows, como "net user" para gerenciar as contas de usuário, "rd" para remover pastas e "shutdown" para reiniciar o computador.
-
-É importante notar que, embora este script possa ser útil para a gerência de contas em um ambiente Windows, ele não foi criado com o objetivo de ser usado como um script universal ou aplicável a todos os casos de uso. Além disso, é importante observar que, embora as opções de login automático e de adicionar contas administrativas possam ser úteis em alguns casos, elas também podem ser um risco de segurança, dependendo do ambiente em que estão sendo usadas.
+Agora você pode compartilhar este script no GitHub para que outros usuários possam utilizá-lo e contribuir para seu aprimoramento.
